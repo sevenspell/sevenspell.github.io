@@ -9,40 +9,45 @@
     </head>
         
     <body>
-        <header>
-            <h1>Rita Pang</h1>
-            <ul style="list-style: none;">
+        <section id="headsection">
+            <header>
+                <h1 id="namebox">Rita Pang</h1>
+            </header>
+                    
+            <nav id="navbar">
+                <ul>
                     <li><a href="./index.html">About</a></li>
                     <li><a href="./portfolio.html">Portfolio</a></li>
                     <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </header>
+                </ul>
+            </nav>
+        </section>
 
         <section id="contact">
                 
-            <h2>Contact</h2>
-                    
+            <h2 id="contactheader">Contact</h2>
+                <hr id="linebreak">
                 <form class="contactform" action="contactform.php">
                     <table>
                         <tr>
                             <td>
                                 Name
                                 <br/>
-                                <input type="text" placeholder="John Smith" name="name">
+                                <input class="formspace" type="text" placeholder="John Smith" name="name">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 Email
                                 <br/>
-                                <input type="text" placeholder="example@gmail.com" name="email">
+                                <input class="formspace" type="text" placeholder="example@gmail.com" name="email">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 Message
                                 <br/>
-                                <textarea name="message" placeholder="Write a message"></textarea>
+                                <textarea id="messagespace" name="message" placeholder="Write a message"></textarea>
                             </td>
                         </tr>
                         <tr>
