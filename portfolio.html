@@ -1,74 +1,182 @@
 <!DOCTYPE html>
-<html lang=en-us">
+<html lang="en">
 
-    <head>
-        <title>sevenspell</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/portfoliostyle.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    </head>
-        
-    <body>
-        <section id="headsection">
-            <header>
-                <h1 id="namebox">Rita Pang</h1>
-            </header>
-                    
-            <nav id="navbar">
-                <ul>
-                    <li><a href="./index.html">About</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-            </nav>
-        </section>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <section id="portfolio">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-            <h2 id="portfolioheader">Portfolio</h2>
+    <!-- My own CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/portfoliostyle.css">
 
-                <hr id="linebreak">
 
-                    <div id="portfolio1">Travel</div> 
-                        
-                         <a href="#portfolio1"><img src="./assets/images/IMG_0358_2.JPG" height=170; width=230 id="travel" alt=travel align="left"></a>
-                        
-                    </br>     
+    <!--logo and favicon images-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-                    <div id="portfolio2">Wild Animals</div> 
-                        
-                        <a href="#portfolio2"><img = id="animal" alt=animal src="./assets/images/IMG_9854_2.JPG" height=170; width=230 align="right"></a>
-                    
-                    </br>   
+    <!--google fonts
+font-family: 'Dancing Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Courgette', cursive;
+    -->
 
-                    <div id="portfolio3">Wonders of Japan</div> 
-                        
-                        <a href="#portfolio3"><img = id="japan" alt=japan src="./assets/images/IMG_3477_2.JPG" height=170; width=230 align="left"></a>
-                    
-                    </br>   
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Fredericka+the+Great|Grand+Hotel|Parisienne&display=swap" rel="stylesheet"> 
 
-                    <div id="portfolio4">Pebbles</div>
-                        
-                        <a href="#portfolio4"><img = id="pebbs" alt=pebbs src="./assets/images/pebbs2.jpg" height=170; width=230 align="right"></a>
-                     
-                    </br>
+    <title>About Rp</title>
+</head>
 
-                    <div id="portfolio5">Fan Page</div>
-                        
-                        <a href="#portfolio5"><img = id="mt" alt=mt src="./assets/images/MeghanTrainor2.jpg" height=170; width=230 align="left"></a>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img = id="logo" alt=mylogo src="./assets/images/android-chrome-192x192.png" height=50; width=50 align="left"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact
+                    </a>
+                </li>
 
-                    </br>            
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-rita my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
-                    <div id="portfolio6">Scratch Games</div>
-                        
-                        <a href="#portfolio6"><img = id="scratch" alt=scratch src="./assets/images/scratch2.jpg" height=170; width=230 align="right"></a>
-                     
-                    </br>
+    <!--Header-->
+    <div class="page-header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 offset-sm-1 col-md-10 offset-md-1" id="ritapang">
+                    <p class="h1">Portfolio</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        </section>
+    <!--Portfolio-->
+    <hr id="linebreak">
 
-        <div class="footer">Copyright &#169;</div>
-        
-    </body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 offset-sm-1">
+                <div class="card-deck">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top img-fluid" src="./assets/images/IMG_7618_2_2.JPG" alt="travels">
+                        <div class="card-body">
+                            <h4 class="card-title">Travels</h4>
+                                <p class="card-text">A portfolio of my solo travel moments</p>
+                                <a href="#travels" class="btn btn-rita stretched-link">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="card-deck">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top img-fluid" src="./assets/images/IMG_0091_2_2.JPG" alt="wildlife">
+                        <div class="card-body">
+                            <h4 class="card-title">Wild Life</h4>
+                                <p class="card-text">The wild life animals I encountered in my travels</p>
+                                <a href="#wildlife" class="btn btn-rita stretched-link">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-5 offset-sm-1">
+                <div class="card-deck">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top img-fluid" src="./assets/images/IMG_2842_2_2.jpg" alt="japan">
+                        <div class="card-body">
+                            <h4 class="card-title">The Japan I love</h4>
+                                <p class="card-text">See the beautiful Japan through my eyes</p>
+                                <a href="#japan" class="btn btn-rita stretched-link">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="card-deck">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top img-fluid" src="./assets/images/pebbs9_2_2.jpg" alt="pebbles">
+                        <div class="card-body">
+                            <h4 class="card-title">Pebbles</h4>
+                                <p class="card-text">The wild life animal I encounter at home</p>
+                                <a href="#pebbles" class="btn btn-rita stretched-link">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-5 offset-sm-1">
+                <div class="card-deck">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top img-fluid" src="./assets/images/MeghanTrainor.jpg" alt="MT">
+                        <div class="card-body">
+                            <h4 class="card-title">Meghan Trainor Fanpage</h4>
+                                <p class="card-text">Read more about Meghan Trainor</p>
+                                <a href="#mt" class="btn btn-rita stretched-link">Check it out</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-sm-5">
+                <div class="card-deck">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top img-fluid" src="./assets/images/scratch_2_2.jpg" alt="scratch">
+                        <div class="card-body">
+                            <h4 class="card-title">Scratch</h4>
+                                <p class="card-text">A portfolio of Scratch games I've created</p>
+                                <a href="#scratch" class="btn btn-rita stretched-link">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        &nbsp;
+    </div>
+
+    <div class="form-group">
+        &nbsp;
+    </div>
+
+    <div class="form-group">
+        &nbsp;
+    </div>
+
+    <!-- Footer-->
+    <div class="footer">
+        <div class="fixed-bottom">
+            <p class="text-muted">Copyright &#169;</p>
+        </div>
+    </div>
+
+
+</body>
 
 </html>

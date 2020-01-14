@@ -1,48 +1,141 @@
 <!DOCTYPE html>
-<html lang=en-us">
+<html lang="en">
 
-    <head>
-        <title>sevenspell</title>
-        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/css/indexstyle.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    </head>
-        
-    <body>
-        <section id="headsection">
-            <header>
-                <h1 id="namebox">Rita Pang</h1>
-            </header>
-            
-            <nav id="navbar">
-                <ul>
-                        <li><a href="./index.html">About</a></li>
-                        <li><a href="./portfolio.html">Portfolio</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </section>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            <section id="mainbio"> 
-            
-                <h2 id="aboutme">About Me</h2>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-                    <img = id="bio-image" alt=myimage src="./assets/images/RPYY.jpg" height=180; width=190 align="left">
+    <!-- My own CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/indexstyle.css">
 
-                    <p>I'm from Singapore, and I moved to Australia in 2019 to be with my husband.
-                    </p>
 
-                    <p>My background is in the banking industry, and in my previous worklife, I used to work closely with our in-house IT teams. What they do behind the scenes intrigued me so I finally signed up for the coding bootcamp to find out for myself the intricacies of coding, and what do you know - I'm really enjoying it so far! 
-                    </p>
+    <!--logo and favicon images-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-                    <p>In the short term, I'd love to be able to combine my work experience and the knowledge I'm gaining in coding today in a role in the Fintech industry or a startup. In the long run, I want to own my own business that serves a need in the society, working with great people and enjoying every moment of my work. ♬  
-                    </p>
+    <!--google fonts
+font-family: 'Dancing Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Grand Hotel', cursive;
+font-family: 'Courgette', cursive;
+    -->
 
-                    <p>I have a Chihuahua dog called Pebbles, and she is the sweetest pup I could ever ask for. She's ferocious with other people and dogs, but that's only because she's terrified of the world and how much bigger everything else seems to be! My husband and I love going on long walks in the park with Pebbles - she loves being in her own little world with us, and we love her to bits. ❤ 
-                    </p>
-            </section>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Fredericka+the+Great|Grand+Hotel|Parisienne&display=swap" rel="stylesheet"> 
 
-            <div class="footer">Copyright &#169;</div>
-    </body>
+    <title>About Rp</title>
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img = id="logo" alt=mylogo src="./assets/images/android-chrome-192x192.png" height=50; width=50 align="left"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact
+                    </a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-rita my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <div class="page-header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 offset-sm-1 col-md-10 offset-md-1" id="ritapang">
+                    <p class="h1">Rita Pang</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Paragraph Wrapping Image
+        2 rows and 2 columns, with 2 additional rows in 1 column-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 offset-sm-1"><img = id="bio-image" alt=myimage src="./assets/images/RPYY.jpg" height=330; width=350 align="left" class="img-fluid">
+            </div>
+            <div class="col-sm-6">
+                <div class="container">
+                    <div class="row">
+                        <p class="h3">About Me</p>
+                    </div>
+                    <div class="row overflow-auto" id="introtext">
+                        <p>I'm from Singapore, and I moved to Sydney, Australia in 2019 to be with my husband.
+                        </p>
+    
+                        <p>My background is in the banking industry, and in my previous worklife, I used to work closely with our in-house IT teams. What they do behind the scenes intrigued me so I finally signed up for the coding bootcamp to find out for myself the intricacies of coding, and what do you know - I'm really enjoying it so far! 
+                        </p>
+    
+                        <p>In the short term, I'd love to be able to combine my work experience and the knowledge I'm gaining in coding today in a role in the Fintech industry or a startup. In the long run, I want to own my own business that serves a need in the society, working with great people and enjoying every moment of my work. ♬ 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4 justify-content-center">
+            <div class="col-sm-6 offset-sm-1" id="pebbstext">
+                <p>I have a Chihuahua dog called Pebbles, and she is the sweetest pup I could ever ask for. She's ferocious with other people and dogs, but that's only because she's terrified of the world and how much bigger everything else seems to be!
+                </p>
+                <p>My husband and I love going on long walks in the park with Pebbles. She has a lot of fun running in the open field, at times trailing at our feet and at other times, sprinting faster than we ever could. 
+                </p>
+                <p>She loves being in her own little world with us, and we love her to bits. ❤</p>
+            </br>
+            </br>   
+            </div>
+            <div class="col-sm-4"><img = alt=pebbsimage src="./assets/images/pebbs2.jpg" id="pebbsimg" class="img-fluid" height=250; width=280>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        &nbsp;
+    </div>
+
+    <div class="form-group">
+        &nbsp;
+    </div>
+
+    <div class="form-group">
+        &nbsp;
+    </div>
+
+
+    <!-- Footer-->
+    <div class="footer">
+        <div class="fixed-bottom">
+            <p class="text-muted">Copyright &#169;</p>
+        </div>
+    </div>
+    
+
+
+
+</body>
 
 </html>
