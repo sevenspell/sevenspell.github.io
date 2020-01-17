@@ -8,8 +8,14 @@
 .btn-ritaprofile {
     background-color: #B44;
     color: #ffffff;
-    width: 370px;
+    width: 50px;
     font-family: Courgette, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.fa_custom {
+    color: #ffffff;
 }
 
 
