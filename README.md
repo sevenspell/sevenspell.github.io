@@ -14,7 +14,7 @@ https://github.com/sevenspell/sevenspell.github.io/tree/master/assets/images/Scr
 https://github.com/sevenspell/sevenspell.github.io/tree/master/assets/images/Screenshot4.png
 
 3) Contact Me form
-This was designed using Bootstrap forms.
+This was designed using Bootstrap forms and using Formspree as server base.
 
 https://github.com/sevenspell/sevenspell.github.io/tree/master/assets/images/Screenshot5.png
 
