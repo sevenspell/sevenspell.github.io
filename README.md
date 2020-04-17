@@ -11,6 +11,7 @@ A personal page containing:
 1) Personal Introduction Page
 
 This was created using React and Bootstrap, designed to have a clean and easy-on-the-eyes look to it. This page contains a simple introduction to myself. As mentioned under the "Navbar" section below, the icons to my LinkedIn account, Github page and my resume are easily available on the top right.
+
 <img src="screenshots/Screenshot1.png" width= "500" >
 
 
