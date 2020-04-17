@@ -28,7 +28,7 @@ function Contact() {
                                 <label for="comment" className="formtext">Message</label>
                                 <br />
                                 <textarea className="form-control formmessagebox" name="message" rows='5' id='comment'
-                                            placeholder="Write your message here."></textarea>
+                                    placeholder="Write your message here."></textarea>
                                 <br />
                             </div>
                             <div>
@@ -37,6 +37,15 @@ function Contact() {
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className="form-group">
+                &nbsp;
+            </div>
+            <div className="form-group">
+                &nbsp;
+            </div>
+            <div className="form-group">
+                &nbsp;
             </div>
         </div>
     )
