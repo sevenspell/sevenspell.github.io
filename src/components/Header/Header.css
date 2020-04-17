@@ -4,6 +4,7 @@
         background-color: rgb(165,42,42, 0.6);
         border-bottom: 5px solid black;
         height: 150px;
+        width: 100%;
     }
 
     #headerFont {
