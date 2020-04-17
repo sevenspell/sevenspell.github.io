@@ -1,0 +1,113 @@
+@media only screen and (min-width: 770px) {
+
+    .cardContainer {
+        border-radius: 10px;
+        height: 590px;
+        margin: 50px 20px 30px 20px;
+
+    }
+
+
+    .btn-rita {
+        background-color: #B44;
+        color: #ffffff;
+        font-family: 'Codystar', cursive;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-family: 'Rock Salt', cursive;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .card {
+        border-color: #dddede;
+        border-radius: 5px;
+        margin: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 769px){
+
+    .cardContainer {
+        border-radius: 10px;
+        height: 450px;
+        margin: 50px 20px 20px 20px;
+
+    }
+
+
+    .btn-rita {
+        background-color: #B44;
+        color: #ffffff;
+        font-family: 'Codystar', cursive;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 25vw;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-family: 'Rock Salt', cursive;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .card {
+        border-color: #dddede;
+        border-radius: 5px;
+        margin: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    .cardContainer {
+        border-radius: 10px;
+        height: 430px;
+        margin: 50px 20px 20px 20px;
+
+    }
+
+
+    .btn-rita {
+        background-color: #B44;
+        color: #ffffff;
+        font-family: 'Codystar', cursive;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 60vw;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-family: 'Rock Salt', cursive;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .card {
+        border-color: #dddede;
+        border-radius: 5px;
+        margin: 20px;
+    }
+
+}
