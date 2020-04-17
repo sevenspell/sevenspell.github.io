@@ -3,7 +3,6 @@ https://sevenspell.github.io/
 This project was bootstrapped with React.js, and has a responsive mobile-first design.
 
 ## Applications Used
-+ Compression
 + React
 + TinyJPG for image compression
 
